@@ -8,5 +8,5 @@ def hello(array)
   end
 end
 
-binding.pry
+binding.pryexit
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
